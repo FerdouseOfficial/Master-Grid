@@ -14,4 +14,8 @@ Problems of Flexbox:- 1. One Dimensional Layout.
     --------------------- Definition of Grid =============
 
 Grid: 
------ In simple term you can say that. Grid is like matrix. like I love you I love you 
+----- In simple term you can say that. Grid is like matrix. there we have rows and columns
+
+in Grid it also have :
+    1. Grid(Container)
+    2. Grid(item(child))
