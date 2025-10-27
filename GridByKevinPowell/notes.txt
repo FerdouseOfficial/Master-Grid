@@ -1,0 +1,11 @@
+CSS GRID:--------------
+
+first we will try to learn it by thought principle:- 
+
+
+what is CSS Grid:- 1. Two Dimensional Layout.
+
+
+Problems of Flexbox:- 1. One Dimensional Layout.
+                    2. By using Flexbox we can't create very flexible layout. Which we can create using Grid.
+                    3. Grid is created to solve that one Dimensional and flexible layout creation problem
