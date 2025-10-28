@@ -15,7 +15,7 @@ body{
 
     /* Right way of doing it using Fraction */
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
     /* border: 1px solid red; */
     background-color: #aa6969;
     text-align: center;
