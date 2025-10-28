@@ -14,4 +14,17 @@ body {
   grid-template-rows: 1fr 2fr 2fr 1fr;
   height: 800px;
   width: 800px;
+  gap: 6px;
+  margin: 70px auto;
+}
+.box {
+  background-color: rgb(49, 49, 182);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
