@@ -1,0 +1,33 @@
+/* Add your CSS styles here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+body {
+  background-color: #333;
+}
+.container {
+  height: 800px;
+  width: 800px;
+  /* background-color: rgb(172, 39, 172); */
+  margin: 50px auto;
+  /* adding grid property */
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  /* gap: 10px; */
+  /* padding: 20px; */
+  /* border-radius: 10px; */
+  /* text-align: cen; */
+}
+.white {
+  background-color: #ac8989;
+}
+.brown {
+  background-color: rgb(177, 63, 63);
+}
+/* .white, .brown{
+    border-radius: 4px;
+} */
