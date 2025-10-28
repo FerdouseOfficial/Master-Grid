@@ -19,3 +19,16 @@ Grid:
 in Grid it also have :
     1. Grid(Container) 
     2. Grid(item(child))
+
+first property Start learning:-
+
+-- Grid-template-columns/ Grid-template-rows
+        we can write code like this:-     
+            grid-template-columns: 200px 200px;
+            background-color: #aa6969;
+            grid-template-rows: 200px 200px;
+        but eventually by using this px unit in css. The child will start overflowing and start going outside of container(parent div).
+
+        -------------------------
+
+        So the solution is using fraction. 
