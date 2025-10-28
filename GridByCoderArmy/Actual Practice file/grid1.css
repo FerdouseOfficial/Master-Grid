@@ -9,14 +9,20 @@ body{
 
 .container{
     display: grid;
-    grid-template-columns: 200px 200px;
-    background-color: #aa6969;
-    grid-template-rows: 200px 200px;
+    /* Not Right way of Doint it by using pixel unit */
+    /* grid-template-columns: 200px 200px; */
+    /* grid-template-rows: 200px 200px; */
+
+    /* Right way of doing it using Fraction */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     /* border: 1px solid red; */
+    background-color: #aa6969;
     text-align: center;
     gap: 9px;
-
     padding: 10px;
+    height: 400px;
+    width: 400px;
 }
 .box{
     text-align: center;
